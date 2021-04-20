@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Population Density Maps</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #d3d3d3;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			/* width: 960px; */
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 2.5em;
+			/* The em unit. 3x the current size */
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.25em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+
+		.max-width-img {
+  width:100%;
+}
+	</style>
+</head>
+
+<body>
+
+	<section>
+		<h1>Population Density by County for the United States and Michigan</h1>
+
+		<img src="Lab_04_US States by pop density.png" alt="Map of U.S. Population Density" class="max-width-img">
+		<br>
+		<a href="Lab_04_US States by pop density_high res.png">Link to high resolution map</a>
+
+		<br>
+		<img src="Michigan Pop Density.png" alt="Map of Michigan Population Density" class="max-width-img">
+		<br>
+		<a href="Michigan Pop Density_high res.png">Link to high resolution map</a>
+
+		<div id='map'>
+			<!-- Add your custom HTML here -->
+		</div>
+
+
+		<!-- Add your information below -->
+		<h2>Authored by: Ryan Lark</h2>
+		<p>Software Used: QGIS 3.14 and Windows 10. Data was sourced from the U.S. Census Bureau and USDA Economic Research Service. CRS used for U.S. Map EPSG: 102008 and Michigan: EPSG: 4326.</p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on <a href="https://github.com/ryan-lark">GitHub</a></li>
+			<!-- This gist is a map showing Michigan's population density -->
+	<script src="https://gist.github.com/ryan-lark/a577b933f9e3faaea396844fbe9be41e.js"></script></script>
+	<h2>Michigan Population Density </h2></script>
+		</ul>
+	</section>
+
+</body>
+
+</html>
